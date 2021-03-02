@@ -1040,3 +1040,33 @@ h4 {
         text-align: center;
     }
 }
+
+/* modifications CSS pour le SEO */
+
+.items-center{
+    display: flex;
+    justify-content: center;
+}
+
+#bloc-2-services h2{
+    width: 63%;
+}
+
+.quote{
+    color: #333333;
+    font-style: italic;
+    font-size: 2rem;
+    border: none;
+    width: 58%;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.quote p{
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+#bloc-4-portfolio h2{
+    width: 45%;
+}
