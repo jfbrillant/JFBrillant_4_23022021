@@ -1070,3 +1070,7 @@ h4 {
 #bloc-4-portfolio h2{
     width: 45%;
 }
+
+.bg-presentation {
+    background-image: url("img/image-de-presentation.jpg");
+}
