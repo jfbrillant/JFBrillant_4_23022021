@@ -1074,3 +1074,14 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
+
+.btn-atomic-tangerine, footer a, footer span, footer a, footer li, footer p, footer div{
+    color: black!important;
+}
+
+.bgc-dark-slate-blue{
+    background-color: black;
+}
+
+
