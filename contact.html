@@ -31,7 +31,6 @@
 <!-- Principal conteneur -->
 <div class="page-container">
     
-<main>
 <!-- bloc-0 -->
 <header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
@@ -57,8 +56,9 @@
 </header>
 <!-- bloc-0 END -->
 
+<main>
 <!-- bloc-6 -->
-<section class="bloc bg-dots-bg bg-repeat bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<div class="bloc bg-dots-bg bg-repeat bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
@@ -80,6 +80,7 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
+				<h2>Formulaire</h2>
 				<form id="form_1" novalidate data-success-msg="Your message has been sent." data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
 						<label>
@@ -111,8 +112,13 @@
 				</form>
 			</div>
 			<div class="col-sm-6">
+				<h2>Adresse</h2>
 				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<address>
+						<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>
+						2 place Sathonay 69001 Lyon<br>
+						Ouvert de 9h à 18h, du lundi au vendredi<br>
+					</address>
 				</p>
 			</div>
 		</div>
@@ -123,7 +129,7 @@
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
-
+</main>
 
 <!-- Footer - bloc-8 -->
 <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
@@ -160,7 +166,6 @@
 	</div>
 </footer>
 <!-- Footer - bloc-8 END -->
-</main>
 
 </div>
 <!-- Principal conteneur END -->
